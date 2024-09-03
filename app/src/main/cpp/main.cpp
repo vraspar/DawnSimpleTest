@@ -4,7 +4,7 @@
 
 extern "C"
 JNIEXPORT void JNICALL
-Java_com_example_mydawnapp_MainActivity_initDawn(JNIEnv* env, jobject /* this */) {
+Java_com_example_dawnsimpletest_MainActivity_initDawn(JNIEnv* env, jobject /* this */) {
     auto instance = wgpu::CreateInstance();
 
     // Get Adapter
